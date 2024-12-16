@@ -1,4 +1,3 @@
-
 from PySide6 import QtWidgets, QtCore
 from PySide6.QtCore import QSize
 from PySide6.QtWidgets import QMainWindow, QTabWidget, QWidget, QVBoxLayout
@@ -7,11 +6,6 @@ from exam.process_info import ProcessWindow
 from exam.scheduler_info import SchedulerWindow
 from exam.services_info import ServicesWindow
 from exam.system_info import SystemWindow
-
-
-
-
-
 
 
 class MainWindow(QMainWindow):
