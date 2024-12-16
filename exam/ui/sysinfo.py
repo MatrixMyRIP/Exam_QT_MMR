@@ -162,10 +162,6 @@ class Ui_Form_General(object):
 
         self.verticalLayout.addLayout(self.horizontalLayout_7)
 
-        self.lineEditdelay = QLineEdit(Form)
-        self.lineEditdelay.setObjectName(u"lineEditdelay")
-
-        self.verticalLayout.addWidget(self.lineEditdelay)
 
 
         self.retranslateUi(Form)
@@ -189,6 +185,5 @@ class Ui_Form_General(object):
         self.comboBox_interval.setItemText(3, QCoreApplication.translate("Form", u"30", None))
 
         self.label_interval_2.setText(QCoreApplication.translate("Form", u"\u0441\u0435\u043a\u0443\u043d\u0434", None))
-        self.lineEditdelay.setPlaceholderText(QCoreApplication.translate("Form", u"\u0412\u0440\u0435\u043c\u044f \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f, \u0441\u0435\u043a", None))
     # retranslateUi
 

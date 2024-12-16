@@ -4,7 +4,7 @@ import psutil
 from PySide6 import QtWidgets
 
 from exam.threads import SystemInfo
-from exam.ui.general import Ui_Form_General
+from exam.ui.sysinfo import Ui_Form_General
 
 
 class SystemWindow(QtWidgets.QWidget):
@@ -51,7 +51,6 @@ class SystemWindow(QtWidgets.QWidget):
 
     def initSignals(self) -> None:
         self.ui.comboBox_interval.currentIndexChanged.connect(self.update_interval)
-        # self.ui.lineEditdelay.textChanged.connect(self.onDelayLineEditTextChanged)
 
     def update_interval(self, index):
         try:
