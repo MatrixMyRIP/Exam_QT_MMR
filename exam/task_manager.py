@@ -41,12 +41,6 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == "__main__":
-    # app = QtWidgets.QApplication()
-    #
-    # window = ServicesWindow()
-    # window.show()
-    #
-    # app.exec()
     app = QtWidgets.QApplication()
 
     window = MainWindow()
