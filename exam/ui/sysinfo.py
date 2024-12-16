@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'generalrUYdiH.ui'
+## Form generated from reading UI file 'sysinfoSaMBOG.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.8.0
+## Created by: Qt User Interface Compiler version 6.8.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -163,7 +163,6 @@ class Ui_Form_General(object):
         self.verticalLayout.addLayout(self.horizontalLayout_7)
 
 
-
         self.retranslateUi(Form)
 
         QMetaObject.connectSlotsByName(Form)
@@ -178,12 +177,12 @@ class Ui_Form_General(object):
         self.label_ramvalue.setText(QCoreApplication.translate("Form", u"\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 RAM", None))
         self.label_hdd.setText(QCoreApplication.translate("Form", u"\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0436\u0435\u0441\u0442\u043a\u0438\u0445 \u0434\u0438\u0441\u043a\u043e\u0432", None))
         self.label_hdd_about.setText(QCoreApplication.translate("Form", u"\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043f\u043e \u0434\u0438\u0441\u043a\u0430\u043c:", None))
-        self.label_interval.setText(QCoreApplication.translate("Form", u"\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438", None))
+        self.label_interval.setText(QCoreApplication.translate("Form", u"\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0447\u0435\u0440\u0435\u0437:", None))
         self.comboBox_interval.setItemText(0, QCoreApplication.translate("Form", u"1", None))
         self.comboBox_interval.setItemText(1, QCoreApplication.translate("Form", u"5", None))
         self.comboBox_interval.setItemText(2, QCoreApplication.translate("Form", u"15", None))
         self.comboBox_interval.setItemText(3, QCoreApplication.translate("Form", u"30", None))
 
-        self.label_interval_2.setText(QCoreApplication.translate("Form", u"\u0441\u0435\u043a\u0443\u043d\u0434", None))
+        self.label_interval_2.setText(QCoreApplication.translate("Form", u"\u0441\u0435\u043a.", None))
     # retranslateUi
 

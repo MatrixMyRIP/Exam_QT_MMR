@@ -173,7 +173,7 @@
      <item>
       <widget class="QLabel" name="label_interval">
        <property name="text">
-        <string>Обновления информации</string>
+        <string>Обновление информации через:</string>
        </property>
       </widget>
      </item>
@@ -204,18 +204,11 @@
      <item>
       <widget class="QLabel" name="label_interval_2">
        <property name="text">
-        <string>секунд</string>
+        <string>сек.</string>
        </property>
       </widget>
      </item>
     </layout>
-   </item>
-   <item>
-    <widget class="QLineEdit" name="lineEditdelay">
-     <property name="placeholderText">
-      <string>Время обновления, сек</string>
-     </property>
-    </widget>
    </item>
   </layout>
  </widget>
